@@ -14,6 +14,19 @@
             Console.WriteLine("=========================================\n");
 
 
+            NepaliTeacher nepaliTeacher = new NepaliTeacher();
+            nepaliTeacher.Teaching();
+            nepaliTeacher.Name  = "Ram Bahadur";
+            Console.WriteLine("Dai ko Name: " + nepaliTeacher.Name);
+            nepaliTeacher.SalaryInfo();
+
+            Console.WriteLine("=========================================\n");
+
+            EnglishTeacher englishTeacher = new EnglishTeacher();
+            englishTeacher.Teaching();
+            englishTeacher.Name = "Shyam Bahadur";
+            Console.WriteLine("Dai ko Name: " + englishTeacher.Name);
+            englishTeacher.SalaryInfo();
 
 
         }
